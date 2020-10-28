@@ -1,0 +1,28 @@
+.sign-in {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+
+    .title {
+        margin: 10px 0;
+    }
+
+    .buttons button {
+        margin: 5px 0 5px 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+        width: 380px;
+        margin: 0;
+
+        .buttons {
+            display: flex;
+            justify-content: space-between;
+
+            button {
+                margin: 0;
+            }
+        }
+    }
+}
