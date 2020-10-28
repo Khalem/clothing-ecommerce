@@ -1,0 +1,15 @@
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: 50px auto 0 auto;
+
+    .title {
+        margin: 10px 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+        width: 380px;
+        margin: 0;
+    }
+}
