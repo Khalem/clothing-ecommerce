@@ -1,8 +1,10 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
-import { API_KEY } from '../Env';
 
+console.log(process.env);
+
+const API_KEY = process.env.REACT_APP_API_KEY;
 const config = {
     apiKey: API_KEY,
     authDomain: "clothing-ecommerce-1dc24.firebaseapp.com",
